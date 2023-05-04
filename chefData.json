@@ -2,32 +2,40 @@
     {
       "id": 1,
       "chefName": "Wang Ming",
-      "chefPicture": "https://example.com/wang-ming.jpg",
+      "chefPicture": "https://i.ibb.co/gmcktPH/wang-ming.png",
       "rating": 4.8,
       "yearsOfExperience": 12,
       "chefDescription": "Wang Ming is a renowned chef in China known for his innovative take on traditional Chinese dishes.",
       "numberOfRecipes": 10,
       "recipes": [
         {
-          "recipeName1": "Kung Pao Chicken",
+          "id":1,
+          "recipeName": "Kung Pao Chicken",
+          "img":"https://i.ibb.co/5srzR19/Kung-Pao-Chicken-11.jpg",
           "methodOfCooking": "Stir-Fry",
           "ingredients": ["Chicken breast", "Sichuan peppercorns", "Dried chili peppers", "Garlic", "Ginger"],
           "rating": 4.7
         },
         {
-          "recipeName2": "Mapo Tofu",
+          "id":2,
+          "recipeName": "Mapo Tofu",
+          "img": "https://i.ibb.co/Sd1G9v0/map-tofu.jpg",
           "methodOfCooking": "Simmer",
           "ingredients": ["Soft tofu", "Ground pork", "Sichuan peppercorns", "Doubanjiang", "Garlic"],
           "rating": 4.6
         },
         {
-          "recipeName3": "Steamed Fish",
+          "id":3,
+          "recipeName": "Steamed Fish",
+          "img":"https://i.ibb.co/2n3SRsp/twice-cooked.jpg",
           "methodOfCooking": "Steam",
           "ingredients": ["Whole fish", "Ginger", "Scallions", "Soy sauce", "Rice wine"],
           "rating": 4.8
         },
         {
-          "recipeName4": "Shrimp Fried Rice",
+          "id":4,
+          "recipeName": "Shrimp Fried Rice",
+          "img":"https://i.ibb.co/0XX4Sks/teamed-Fish.jpg",
           "methodOfCooking": "Stir-Fry",
           "ingredients": ["Cooked rice", "Shrimp", "Eggs", "Carrots", "Peas"],
           "rating": 4.5
@@ -37,32 +45,40 @@
     {
       "id": 2,
       "chefName": "Li Na",
-      "chefPicture": "https://example.com/li-na.jpg",
+      "chefPicture": "https://i.ibb.co/cDq8ntv/linachef.jpg",
       "rating": 4.9,
       "yearsOfExperience": 15,
       "chefDescription": "Li Na is a master of Chinese pastry making and her desserts are sought after by foodies across China.",
       "numberOfRecipes": 8,
       "recipes": [
         {
-          "recipeName1": "Sesame Balls",
+          "id":1,
+          "recipeName": "Sesame Balls",
+          "img":"https://i.ibb.co/5srzR19/Kung-Pao-Chicken-11.jpg",
           "methodOfCooking": "Fry",
           "ingredients": ["Glutinous rice flour", "Sesame seeds", "Red bean paste", "Sugar", "Oil"],
           "rating": 4.7
         },
         {
-          "recipeName2": "Egg Tarts",
+          "id":2,
+          "recipeName": "Egg Tarts",
+          "img": "https://i.ibb.co/Sd1G9v0/map-tofu.jpg",
           "methodOfCooking": "Bake",
           "ingredients": ["Flour", "Butter", "Eggs", "Sugar", "Milk"],
           "rating": 4.8
         },
         {
-          "recipeName3": "Mooncakes",
+          "id":3,
+          "recipeName": "Mooncakes",
+          "img":"https://i.ibb.co/2n3SRsp/twice-cooked.jpg",
           "methodOfCooking": "Bake",
           "ingredients": ["Flour", "Sugar", "Lotus seed paste", "Egg wash", "Sesame seeds"],
           "rating": 4.9
         },
         {
-          "recipeName3": "Red Bean Pudding",
+          "id":4,
+          "recipeName": "Red Bean Pudding",
+          "img":"https://i.ibb.co/0XX4Sks/teamed-Fish.jpg",
           "methodOfCooking": "Steam",
           "ingredients": ["Red bean paste", "Gelatin", "Sugar", "Water", "Vanilla extract"],
           "rating": 4.5
@@ -72,32 +88,40 @@
     {
       "id": 3,
       "chefName": "Zhang Wei",
-      "chefPicture": "https://example.com/zhang-wei.jpg",
+      "chefPicture": "https://i.ibb.co/b7893BZ/zhang-chef.jpg",
       "rating": 4.7,
       "yearsOfExperience": 10,
       "chefDescription": "Zhang Weiis an expert in creating delicious and healthy vegetarian dishes that are loved by both vegetarians and non-vegetarians.",
       "numberOfRecipes": 12,
       "recipes": [
         {
-          "recipeName1": "Buddha's Delight",
+          "id":1,
+          "recipeName": "Buddha's Delight",
+          "img":"https://i.ibb.co/5srzR19/Kung-Pao-Chicken-11.jpg",
           "methodOfCooking": "Stir-Fry",
           "ingredients": ["Tofu", "Mushrooms", "Bamboo shoots", "Carrots", "Snow peas"],
           "rating": 4.6
         },
         {
-          "recipeName2": "Eggplant with Garlic Sauce",
+          "id":2,
+          "recipeName": "Eggplant with Garlic Sauce",
+          "img": "https://i.ibb.co/Sd1G9v0/map-tofu.jpg",
           "methodOfCooking": "Stir-Fry",
           "ingredients": ["Eggplant", "Garlic", "Soy sauce", "Vinegar", "Sugar"],
           "rating": 4.8
         },
         {
-          "recipeName3": "Vegetarian Dumplings",
+          "id":3,
+          "recipeName": "Vegetarian Dumplings",
+          "img":"https://i.ibb.co/2n3SRsp/twice-cooked.jpg",
           "methodOfCooking": "Boil",
           "ingredients": ["Wheat flour", "Cabbage", "Carrots", "Mushrooms", "Ginger"],
           "rating": 4.5
         },
         {
-          "recipeName4": "Stir-Fried Broccoli",
+          "id":4,
+          "recipeName": "Stir-Fried Broccoli",
+          "img":"https://i.ibb.co/0XX4Sks/teamed-Fish.jpg",
           "methodOfCooking": "Stir-Fry",
           "ingredients": ["Broccoli", "Garlic", "Soy sauce", "Sugar", "Oil"],
           "rating": 4.7
@@ -107,32 +131,40 @@
     {
       "id": 4,
       "chefName": "Chen Wei",
-      "chefPicture": "https://example.com/chen-wei.jpg",
+      "chefPicture": "https://i.ibb.co/V9dnxRT/chenwei.jpg",
       "rating": 4.5,
       "yearsOfExperience": 8,
       "chefDescription": "Chen Wei is a young and talented chef who specializes in modern Chinese fusion cuisine.",
       "numberOfRecipes": 6,
       "recipes": [
         {
-          "recipeName1": "Crispy Orange Beef",
+          "id":1,
+          "recipeName": "Crispy Orange Beef",
+          "img":"https://i.ibb.co/5srzR19/Kung-Pao-Chicken-11.jpg",
           "methodOfCooking": "Deep-Fry",
           "ingredients": ["Beef sirloin", "Cornstarch", "Orange zest", "Soy sauce", "Sugar"],
           "rating": 4.7
         },
         {
-          "recipeName2": "Sichuan-Style Fried Rice",
+          "id":2,
+          "recipeName": "Sichuan-Style Fried Rice",
+          "img": "https://i.ibb.co/Sd1G9v0/map-tofu.jpg",
           "methodOfCooking": "Stir-Fry",
           "ingredients": ["Cooked rice", "Ground pork", "Sichuan peppercorns", "Doubanjiang", "Green onions"],
           "rating": 4.5
         },
         {
-          "recipeName3": "Honey Walnut Shrimp",
+          "id":3,
+          "recipeName": "Honey Walnut Shrimp",
+          "img":"https://i.ibb.co/2n3SRsp/twice-cooked.jpg",
           "methodOfCooking": "Fry",
           "ingredients": ["Shrimp", "Walnuts", "Mayonnaise", "Honey", "Lemon juice"],
           "rating": 4.6
         },
         {
-          "recipeName4": "Hot and Sour Soup",
+          "id":4,
+          "recipeName": "Hot and Sour Soup",
+          "img":"https://i.ibb.co/0XX4Sks/teamed-Fish.jpg",
           "methodOfCooking": "Boil",
           "ingredients": ["Tofu", "Eggs", "Bamboo shoots", "Wood ear mushrooms", "Vinegar"],
           "rating": 4.8
@@ -142,32 +174,40 @@
     {
       "id": 5,
       "chefName": "Yang Wei",
-      "chefPicture": "https://example.com/yang-wei.jpg",
+      "chefPicture": "https://i.ibb.co/tXKscbG/yangwei.jpg",
       "rating": 4.6,
       "yearsOfExperience": 9,
       "chefDescription": "Yang Wei is a master of Sichuan cuisine, known for his bold use of spices and unique flavor combinations.",
       "numberOfRecipes": 9,
       "recipes": [
         {
-          "recipeName1": "Dan Dan Noodles",
+          "id":1,
+          "recipeName": "Dan Dan Noodles",
+          "img":"https://i.ibb.co/vvj2S11/dan-dan-noodles-06.jpg",
           "methodOfCooking": "Boil",
           "ingredients": ["Ground pork", "Soy sauce", "Sichuan peppercorns", "Chili oil", "Green onions"],
           "rating": 4.7
         },
         {
-          "recipeName2": "Mapo Tofu",
+          "id":2,
+          "recipeName": "Mapo Tofu",
+          "img": "https://i.ibb.co/Sd1G9v0/map-tofu.jpg",
           "methodOfCooking": "Stir-Fry",
           "ingredients": ["Tofu", "Ground pork", "Sichuan peppercorns", "Doubanjiang", "Green onions"],
           "rating": 4.8
         },
         {
-          "recipeName3": "Kung Pao Chicken",
+          "id":3,
+          "recipeName": "Kung Pao Chicken",
+          "img":"https://i.ibb.co/2n3SRsp/twice-cooked.jpg",
           "methodOfCooking": "Stir-Fry",
           "ingredients": ["Chicken breast", "Peanuts", "Dried chili peppers", "Sichuan peppercorns", "Scallions"],
           "rating": 4.5
         },
         {
-          "recipeName4": "Twice-Cooked Pork",
+          "id":4,
+          "recipeName": "Twice-Cooked Pork",
+          "img":"https://i.ibb.co/0XX4Sks/teamed-Fish.jpg",
           "methodOfCooking": "Stir-Fry",
           "ingredients": ["Pork belly", "Leeks", "Doubanjiang", "Soy sauce", "Sugar"],
           "rating": 4.6
@@ -177,32 +217,40 @@
     {
       "id": 6,
       "chefName": "Wang Li",
-      "chefPicture": "https://example.com/wang-li.jpg",
+      "chefPicture": "https://i.ibb.co/FHdYWcb/wangLI.jpg",
       "rating": 4.7,
       "yearsOfExperience": 10,
       "chefDescription": "Wang Li is a renowned chef who has dedicated his life to the art of Chinese cuisine. He is known for his innovative dishes and use of fresh, high-quality ingredients.",
       "numberOfRecipes": 7,
       "recipes": [
         {
-          "recipeName1": "Moo Shu Pork",
+          "id":1,
+          "recipeName": "Moo Shu Pork",
+          "img":"https://i.ibb.co/5srzR19/Kung-Pao-Chicken-11.jpg",
           "methodOfCooking": "Stir-Fry",
           "ingredients": ["Pork loin", "Eggs", "Shiitake mushrooms", "Wood ear mushrooms", "Scallions"],
           "rating": 4.8
         },
         {
-          "recipeName2": "Stir-Fried Bok Choy",
+          "id":2,
+          "recipeName": "Stir-Fried Bok Choy",
+          "img": "https://i.ibb.co/Sd1G9v0/map-tofu.jpg",
           "methodOfCooking": "Stir-Fry",
           "ingredients": ["Bok choy", "Garlic", "Ginger", "Soy sauce", "Sugar"],
           "rating": 4.6
         },
         {
-          "recipeName3": "Cantonese-Style Roast Duck",
+          "id":3,
+          "recipeName": "Cantonese-Style Roast Duck",
+          "img":"https://i.ibb.co/2n3SRsp/twice-cooked.jpg",
           "methodOfCooking": "Roast",
           "ingredients": ["Duck", "Five spice powder", "Hoisin sauce", "Rice wine", "Sugar"],
           "rating": 4.7
         },
         {
-          "recipeName4": "Steamed Fish with Ginger and Scallions",
+          "id":4,
+          "recipeName": "Steamed Fish with Ginger and Scallions",
+          "img":"https://i.ibb.co/0XX4Sks/teamed-Fish.jpg",
           "methodOfCooking": "Steam",
           "ingredients": ["Fish", "Ginger", "Scallions", "Soy sauce", "Rice wine"],
           "rating": 4.5

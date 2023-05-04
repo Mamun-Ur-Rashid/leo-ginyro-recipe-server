@@ -12,6 +12,14 @@ app.get('/', (req, res) => {
 app.get('/allData', (req, res) => {
     res.send(allData);
 })
+// get specific data
+
+app.get('/allData/:id', (req, res) => {
+    const id =req.params.id;
+    console.log(id);
+    const selectedData = allData.find(d => d.id == id);
+    res.send(selectedData);
+})
 
 app.listen(port, () => {
     console.log(`China chef API is running port: ${port}`);
